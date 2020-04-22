@@ -1,0 +1,30 @@
+footer {
+    background-color: #17191F;
+    text-align: center;
+    color: #90949E;
+    padding: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer ul {
+    padding: 0px;
+}
+
+footer li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#footer-bottom {
+    padding-bottom: 20px;
+}
+
+footer a {
+    transition: 0.3s;
+    color: #90949E;
+}
+
+footer a:hover {
+    transition: 0.3s;
+    color: #E5C175;
+}

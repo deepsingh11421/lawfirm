@@ -1,0 +1,55 @@
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    transition: 0.3s;
+    color: #F5F6F7;
+}
+
+header a:hover {
+    transition: 0.3s;
+    color: #E5C175;
+}
+
+header ul {
+    margin-right: 10px;
+}
+
+header li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#header-bar {
+    /* width: 30px; */
+    color: #F5F6F7;
+    display: none;
+    margin: 10px;
+}
+
+#header-bar i {
+    font-size: 1.7rem;
+}
+
+#header-drop {
+    display: none;
+}
+
+#header-bar:hover #header-drop{
+    transition: 1s;
+    display: block;
+}
+
+@media (max-width: 840px){
+    #header-list {
+        display: none;
+    }
+    #header-bar {
+        display: block;
+    }
+}
