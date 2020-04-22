@@ -25,31 +25,31 @@ header li {
     margin: 10px;
 }
 
-#header-bar {
-    /* width: 30px; */
-    color: #F5F6F7;
+#header-list label, #hamburger {
     display: none;
-    margin: 10px;
-}
-
-#header-bar i {
-    font-size: 1.7rem;
-}
-
-#header-drop {
-    display: none;
-}
-
-#header-bar:hover #header-drop{
-    transition: 1s;
-    display: block;
 }
 
 @media (max-width: 840px){
-    #header-list {
+    #header-list label{
+        display: inline-block;
+        color: #F5F6F7;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    #header-list ul li {
+        display: block;
+    }
+
+    #header-list a {
+        text-decoration: none;
+    }
+
+    #header-list ul {
         display: none;
     }
-    #header-bar {
+
+    #header-list input:checked ~ ul {
         display: block;
     }
 }
