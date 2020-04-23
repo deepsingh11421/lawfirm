@@ -24,7 +24,6 @@ body {
 }
 
 #second{
-    height:350px;
     background-color: white;
 }
 
@@ -34,4 +33,30 @@ body {
     border: 0;
     height: 3px;
     background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
+}
+
+#second{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#company-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#cont-img img{
+    width:400px;
+    height:300px;
+}
+
+#cont-text{
+    width: 50%;
+}
+@media (max-width: 500px){
+    #cont-text {
+        width: 400px;
+    }
 }
