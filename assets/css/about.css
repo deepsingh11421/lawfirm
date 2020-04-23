@@ -5,9 +5,8 @@ body {
 
 #first {
     height: 300px;
-    background-image: url("../image/pillars.jpg");
+    background-image: url("../image/pillars-crop.jpg");
     background-color: black;
     filter: brightness(30%);
-    background-size:contain;
-    
+    background-size: cover;    
 }
