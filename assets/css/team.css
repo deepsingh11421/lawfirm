@@ -104,3 +104,24 @@ a, .button {
     padding-right: 35px;
     padding-bottom: 35px;
 }
+
+#first-head{
+  padding-top: 120px;
+  font-family: 'Cinzel', serif;
+  color: #E5C175;
+  font-size: 3em;
+}
+
+#first-bg {
+  height: 100%;
+  text-align: center;
+  background: rgba(63, 63, 63, 0.6);
+}
+
+#hr{
+  margin-top: 5px;
+  width: 250px;
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
+}
