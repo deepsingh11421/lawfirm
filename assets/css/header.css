@@ -1,9 +1,16 @@
 header {
     width: 100%;
+    transition: 0.3s;
     position: fixed;
     z-index: 10;
     text-align: right;
     background: rgba(0, 0, 0, 0.5);
+    color: #F5F6F7;
+}
+
+header li:hover {
+    transition: 0.3s;
+    color: #E5C175;
 }
 
 header a {
@@ -16,16 +23,58 @@ header a:hover {
     color: #E5C175;
 }
 
-header ul {
+#header-list > ul {
     margin-right: 10px;
 }
 
-header li {
+#header-list > ul > li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#header-list > ul > a > li {
     display: inline-block;
     margin: 10px;
 }
 
 #header-list label, #hamburger {
+    display: none;
+}
+
+.drop:hover .drop-list{
+    display: block;
+}
+
+.drop-list {
+    display: none;
+    text-align: center;
+    padding: 0px;
+    list-style-type: none;
+    position: absolute;
+    margin-left: -40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.practice {
+    margin-left: 10px;
+}
+
+.drop-list li {
+    padding: 5px 10px;
+}
+
+.drop-list a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #F5F6F7;
+}
+
+.drop-list a:hover {
+    transition: 0.3s;
+    color: #E5C175;
+}
+
+.drop-span {
     display: none;
 }
 
@@ -37,7 +86,7 @@ header li {
         padding: 10px;
     }
 
-    #header-list ul li {
+    #nav {
         display: block;
     }
 
@@ -45,11 +94,28 @@ header li {
         text-decoration: none;
     }
 
-    #header-list ul {
+    #header-list > ul {
         display: none;
     }
 
-    #header-list input:checked ~ ul {
+    #header-list input:checked ~ ul{
         display: block;
+    }
+
+    #header-list > ul > a > li {
+        display: block;
+    }
+
+    #header-list > ul > li {
+        display: block;
+    }
+
+    .drop-list {
+        position: relative;
+        background: none;
+        text-align: right;
+    }
+    .drop-span {
+        display: inline;
     }
 }
