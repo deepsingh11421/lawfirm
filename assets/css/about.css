@@ -22,3 +22,20 @@ body {
     color: #E5C175;
     font-size: 3em;
 }
+
+#second{
+    height:350px;
+    background-color: white;
+}
+
+#hr{
+    /* margin-top: 5px;
+    width: 245px;
+    border: none;
+    color: #E5C175; */
+    margin-top: 5px;
+    width: 250px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
+}
