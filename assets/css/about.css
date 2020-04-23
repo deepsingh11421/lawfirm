@@ -44,7 +44,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-left:20px;
+    padding-right: 20px ;
 }
 
 #cont-img img{
@@ -53,10 +55,13 @@ body {
 }
 
 #cont-text{
+    /*  */
     width: 50%;
 }
-@media (max-width: 500px){
+@media (max-width: 510px){
     #cont-text {
+        padding-left:20px;
+        padding-right: 20px ;
         width: 400px;
     }
 }
