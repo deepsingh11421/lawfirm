@@ -11,9 +11,66 @@ body {
 }
 
 #first-bg {
-    opacity: 0.6;
     height: 100%;
-
-    background-color: #3f3f3f;
+    text-align: center;
+    background: rgba(63, 63, 63, 0.6);
 }
 
+#first-img {
+    padding-top: 150px;
+}
+
+#first-head{
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 3em;
+}
+
+#first-desc {
+    /* width: 500px; */
+    display: flex;
+    justify-content: center;
+    color: #E5C175;
+}
+
+#first-desc div {
+    width: 650px;
+}
+
+#first-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#first a {
+    color: #E5C175;
+    text-decoration: none;
+}
+
+#first-btn-text {
+    border: 2px solid #E5C175;
+    padding: 10px 50px;
+    transition: 0.3s;
+    font-size: 1.3em;
+    font-family: 'Jura', sans-serif;
+}
+
+#first-btn-text:hover {
+    transition: 0.3s;
+    border: 2px solid rgb(255, 238, 201);
+}
+
+@media (max-width: 740px){
+    #first-img {
+        padding-top: 130px;
+    }
+    #first-head {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #first-head {
+        font-size: 1.4em;
+    }
+}
