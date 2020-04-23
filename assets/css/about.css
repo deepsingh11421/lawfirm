@@ -5,8 +5,66 @@ body {
 
 #first {
     height: 300px;
-    background-image: url("../image/pillars-crop.jpg");
+    background-image: url("../image/pillars-01.jpeg");
     background-color: black;
-    filter: brightness(30%);
     background-size: cover;    
+}
+
+#first-bg {
+    height: 100%;
+    text-align: center;
+    background: rgba(63, 63, 63, 0.6);
+}
+
+#first-head{
+    padding-top: 120px;
+    font-family: 'Cinzel', serif;
+    color: #E5C175;
+    font-size: 3em;
+}
+
+#second{
+    background-color: white;
+}
+
+#hr{
+    margin-top: 5px;
+    width: 250px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
+}
+
+#second{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#company-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left:20px;
+    padding-right: 20px ;
+}
+
+#cont-img img{
+    width:400px;
+    height:300px;
+}
+
+#cont-text{
+    width: 50%;
+}
+@media (max-width: 510px){
+    #cont-text {
+        padding-left:20px;
+        padding-right: 20px ;
+        width: 400px;
+    }
+    #cont-img img{
+        width:360px;
+        height:300px;
+    }
 }
