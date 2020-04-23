@@ -150,6 +150,6 @@ body {
 
 @media screen and (max-width: 479px){
     .second-div {
-        width: 320px;
+        width: 100%;
     }
 }
