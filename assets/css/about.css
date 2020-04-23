@@ -35,6 +35,8 @@ body {
 #second{
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left:20px;
+    padding-right: 20px ;
 }
 
 #company-cont{
@@ -42,8 +44,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left:20px;
-    padding-right: 20px ;
+    
 }
 
 #cont-img img{
@@ -65,4 +66,18 @@ body {
         width:360px;
         height:300px;
     }
+}
+
+.heading-1{
+    font-family: 'Cinzel', serif;
+    color: #E5C175;
+}
+.p-tag{
+    font-family: 'Open Sans', sans-serif;
+}
+.second-hr{
+    width:50px;
+    margin-left: 0px;
+    border-top:1.5px solid #616368;
+    border-bottom:transparent;
 }
