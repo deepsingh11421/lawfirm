@@ -136,6 +136,101 @@ body {
     background-color: #17191F;
 }
 
+#third {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#third > div {
+    flex-grow: 1;
+    /* height: 550px; */
+}
+
+#third-about {
+    width: 0px;
+}
+
+#third-watermark {
+    position: absolute;
+    left: 30;
+    font-size: 7em;
+    z-index: 5;
+    color: #d5d5d5;
+}
+
+#third-head {
+    position: relative;
+    z-index: 10;
+    font-family: 'Cinzel', serif;
+    margin-left: 120px;
+    margin-top: 50px;
+    z-index: 10;
+    font-size: 1.5em;
+}
+
+#third-hr {
+    border: 1px solid #616368;
+    width: 50px;
+    position: relative;
+    z-index: 10;
+    margin-top: 17px;
+    margin-left: 120px;
+}
+
+#third-desc {
+    /* font-weight: 100; */
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 120px;
+    margin-right: 50px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#third-desc a {
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+}
+
+#third-img {
+    background-image: url("../image/fourth.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 0px;
+}
+
+#third-intro {
+    font-family: 'Cinzel', serif;
+    color: #E5C175;
+    margin: 80px;
+    border: 1px solid #E5C175;
+}
+
+#third-intro {
+    padding: 80px 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-content: center; */
+}
+
+#third-intro div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 1000px){
+    #third-about {
+        width: 100%;
+    }
+    #third-img {
+        width: 100%;
+    }
+}
+
 @media (max-width: 740px){
     #first-head {
         font-size: 2em;
@@ -145,6 +240,21 @@ body {
 @media screen and (max-width: 500px){
     #first-head {
         font-size: 1.4em;
+    }
+    #third-head {
+        margin-left: 40px;
+    }
+    #third-hr {
+        margin-left: 40px;
+    }
+    #third-desc {
+        margin-left: 40px;
+    }
+    #third-watermark {
+        font-size: 5em;
+    }
+    #third-intro {
+        margin: 30px 30px;
     }
 }
 
