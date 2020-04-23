@@ -27,7 +27,6 @@ body {
 }
 
 #first-desc {
-    /* width: 500px; */
     display: flex;
     justify-content: center;
     color: #E5C175;
