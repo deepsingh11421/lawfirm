@@ -61,9 +61,6 @@ body {
 }
 
 @media (max-width: 740px){
-    #first-img {
-        padding-top: 130px;
-    }
     #first-head {
         font-size: 2em;
     }
