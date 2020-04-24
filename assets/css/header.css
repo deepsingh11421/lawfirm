@@ -25,6 +25,12 @@ header a:hover {
 
 #header-list > ul {
     margin-right: 10px;
+    list-style-type: none;
+    text-decoration-line: none;
+}
+
+#header-list a {
+    text-decoration-line: none;
 }
 
 #header-list > ul > li {
