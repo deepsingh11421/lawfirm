@@ -217,18 +217,15 @@ body {
 }
 
 #third-intro {
-    padding: 40px 50px;
     display: flex;
+    height: 70%;
+    min-height: 200px;
     flex-direction: column;
-    /* justify-content: space-around; */
+    font-size: 2em;
+    text-align: center;
+    justify-content: space-around;
 }
 
-#third-intro div {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 2em;
-}
 
 @media screen and (max-width: 1000px){
     #third-about {
@@ -269,5 +266,11 @@ body {
 @media screen and (max-width: 479px){
     .second-div {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #third-intro {
+        font-size: 1.5rem;
     }
 }
