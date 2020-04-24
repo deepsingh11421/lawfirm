@@ -217,9 +217,10 @@ body {
 }
 
 #third-intro {
-    padding: 80px 50px;
+    padding: 40px 50px;
     display: flex;
     flex-direction: column;
+    /* justify-content: space-around; */
 }
 
 #third-intro div {
