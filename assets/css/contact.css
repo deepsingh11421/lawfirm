@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    background-color: #F5F6F7;
+}
+
+#first {
+    height: 300px;
+    background-image: url("../image/pillars-01.jpeg");
+    background-color: black;
+    background-size: cover;    
+}
+
+#first-bg {
+    height: 100%;
+    text-align: center;
+    background: rgba(63, 63, 63, 0.6);
+}
+
+#first-head{
+    padding-top: 120px;
+    font-family: 'Cinzel', serif;
+    color: #E5C175;
+    font-size: 3em;
+}
+.container-fluid{
+    background-color: rgb(254, 255, 209);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+#hr{
+    margin-top: 5px;
+    width: 250px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
+}
