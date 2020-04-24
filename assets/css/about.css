@@ -84,7 +84,6 @@ body {
 
 #third{
     width:100%;
-    
     background-color: white;
     background-size: cover;    
     background-image: url(../image/our_his-01.jpeg);
@@ -120,5 +119,39 @@ body {
     .third-p{
         padding-left: 30px;
         padding-right: 30px;
+    }
+}
+#fourth{
+    width:100%;
+    background-color: #FAF6EB;
+    background-size: cover; 
+    justify-content: space-around;  
+}
+#fourth-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom:50px;
+    flex-wrap: wrap;
+}
+.fourth-hr{
+    border-bottom: transparent;
+    border-top: 1px solid black;
+    width: 40px;
+    margin-left: 0px;
+}
+
+.info > h2{
+    font-family: 'Cinzel', serif;
+    color:rgb(128, 127, 122);
+}
+.info > h5{
+    font-family: 'Cinzel', serif;
+    color:rgb(128, 127, 122);
+}
+@media (max-width: 510px){
+    .info{
+        width: 245px;
     }
 }

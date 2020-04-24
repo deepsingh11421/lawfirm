@@ -21,6 +21,7 @@ footer li {
 
 footer a {
     transition: 0.3s;
+    text-decoration-line: none;
     color: #90949E;
 }
 

@@ -202,7 +202,7 @@ body {
 }
 
 #third-img {
-    background-image: url("../image/fourth.jpg");
+    background-image: url("../image/about.png");
     background-size: cover;
     background-position: center;
     width: 0px;
@@ -210,23 +210,22 @@ body {
 
 #third-intro {
     font-family: 'Cinzel', serif;
+    background: rgba(0, 0, 0, 0.5);
     color: #E5C175;
     margin: 80px;
     border: 1px solid #E5C175;
 }
 
 #third-intro {
-    padding: 80px 50px;
     display: flex;
+    height: 60%;
+    min-height: 200px;
     flex-direction: column;
+    font-size: 2em;
+    text-align: center;
+    justify-content: space-around;
 }
 
-#third-intro div {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 2em;
-}
 
 @media screen and (max-width: 1000px){
     #third-about {
@@ -267,5 +266,11 @@ body {
 @media screen and (max-width: 479px){
     .second-div {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #third-intro {
+        font-size: 1.5rem;
     }
 }
