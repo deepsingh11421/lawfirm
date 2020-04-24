@@ -18,15 +18,16 @@ body {
 
 #first-head{
     padding-top: 120px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Goudy Trajan Regular';
     color: #E5C175;
-    font-size: 3em;
+    font-size: 40px;
+    font-weight: lighter;
 }
 
 
 #hr{
     margin-top: 5px;
-    width: 250px;
+    width: 210px;
     border: 0;
     height: 3px;
     background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
@@ -81,11 +82,13 @@ body {
 }
 
 .heading-1{
-    font-family: 'Cinzel', serif;
+    font-family: 'Goudy Trajan Regular';
     color: #E5C175;
+    font-size: 22px;
+    font-weight: lighter;
 }
 .p-tag{
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Minion Pro";
 }
 .second-hr{
     width:50px;
@@ -110,8 +113,10 @@ body {
     padding-left:8%;
 }
 #third-bg > h2{
-    color:#E5C175;
-    font-family: 'Cinzel', serif;
+    font-family: 'Goudy Trajan Regular';
+    color: #E5C175;
+    font-size: 22px;
+    font-weight: lighter;
 }
 
 #third-bg > p{
@@ -127,8 +132,11 @@ body {
     margin-top: 40px;
     padding-left: 110px;
     padding-right: 110px;
-    font-family:'Cinzel', serif;
+    font-family: "Minion Pro";
+    font-weight: lighter;
 }
+
+
 
 @media (max-width: 510px){
     .third-p{
@@ -163,8 +171,8 @@ body {
     padding-top:50px;
     padding-bottom:50px;
     flex-wrap: wrap;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 .fourth-hr{
     border-bottom: transparent;
@@ -174,12 +182,14 @@ body {
 }
 
 .info > h2{
-    font-family: 'Cinzel', serif;
+    font-family: 'Goudy Trajan Regular';
+    font-size: 19px;
+    font-weight: lighter;
    
 }
 .info > h5{
-    font-family: 'Cinzel', serif;
-    
+    font-family: 'Goudy Trajan Regular';
+    font-weight: lighter;
 }
 @media (max-width: 510px){
     .info{
