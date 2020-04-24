@@ -4,31 +4,19 @@ body {
 }
 
 #first {
-    height: 107%;
+    height: 95%;
     background-image: url("../image/first.jpg");
     background-color: black;
     background-size: cover;
 }
 
 #first-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
     text-align: center;
     background: rgba(63, 63, 63, 0.6);
-}
-
-#first-img {
-    padding-top: 150px;
-    animation: drop 0.5s ease-in 1;
-}
-
-@keyframes drop {
-    from {
-        padding-top: 100px;
-    }
-    to {
-        display: block;
-        padding-top: 150px;
-    }
 }
 
 #first-head{
