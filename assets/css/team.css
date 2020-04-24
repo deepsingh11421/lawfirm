@@ -1,3 +1,8 @@
+html{
+  font-family: 'Cinzel', serif;
+}
+
+
 .container{
     padding-top: 20px;
 }
@@ -105,11 +110,11 @@ a, .button {
     padding-bottom: 35px;
 }
 
-#first-head{
-  padding-top: 120px;
-  font-family: 'Cinzel', serif;
-  color: #E5C175;
-  font-size: 3em;
+#first {
+  height: 300px;
+  background-image: url("../image/pillars-01.jpeg");
+  background-color: black;
+  background-size: cover;    
 }
 
 #first-bg {
@@ -117,6 +122,14 @@ a, .button {
   text-align: center;
   background: rgba(63, 63, 63, 0.6);
 }
+
+#first-head{
+  padding-top: 120px;
+  font-family: 'Cinzel', serif;
+  color: #E5C175;
+  font-size: 3em;
+}
+
 
 #hr{
   margin-top: 5px;
