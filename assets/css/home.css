@@ -202,7 +202,7 @@ body {
 }
 
 #third-img {
-    background-image: url("../image/1.png");
+    background-image: url("../image/about.png");
     background-size: cover;
     background-position: center;
     width: 0px;
@@ -210,6 +210,7 @@ body {
 
 #third-intro {
     font-family: 'Cinzel', serif;
+    background: rgba(0, 0, 0, 0.5);
     color: #E5C175;
     margin: 80px;
     border: 1px solid #E5C175;
