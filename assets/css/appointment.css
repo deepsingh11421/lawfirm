@@ -1,0 +1,109 @@
+.container-fluid{
+    background-color: rgb(254, 255, 209);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#first {
+    height: 300px;
+    background-image: url("../image/pillars-01.jpeg");
+    background-color: black;
+    background-size: cover;    
+  }
+  
+  #first-bg {
+    height: 100%;
+    text-align: center;
+    background: rgba(63, 63, 63, 0.6);
+  }
+  
+  #first-head{
+    padding-top: 120px;
+    font-family: 'Cinzel', serif;
+    color: #E5C175;
+    font-size: 3em;
+  }
+  
+  
+  #hr{
+    margin-top: 5px;
+    width: 250px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
+  }
+
+  .contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .form-contact label {
+    font-size: 14px;
+  }
+  
+  .form-contact .form-group {
+    margin-bottom: 30px;
+  }
+  
+ 
+  .form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+  }
+  
+  
+  .form-contact .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+  
+ 
+  .form-contact .form-control::placeholder {
+    font-weight: 300;
+    color: #999999;
+  }
+  
+  
+  .form-contact textarea {
+    border-radius: 0px;
+    height: 30% !important;
+  }
+
+  .boxed-btn {
+    background: #fff;
+    color: #E5C175;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #E5C175;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #E5C175 !important;
+    text-transform: uppercase;
+  }
+  
+  
+  .boxed-btn:hover {
+    background: #E5C175;
+    color: #fff !important;
+    border: 1px solid #E5C175;
+  }
+  
+
+  .boxed-btn:focus {
+    outline: none;
+  }
+  
+  
+  .boxed-btn.large-width {
+    width: 220px;
+  }
