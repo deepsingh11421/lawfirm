@@ -150,6 +150,8 @@ body {
     font-family: 'Cinzel', serif;
     color:rgb(128, 127, 122);
 }
-.info{
-    width: 245px;
+@media (max-width: 510px){
+    .info{
+        width: 245px;
+    }
 }
