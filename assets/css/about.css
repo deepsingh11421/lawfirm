@@ -48,8 +48,8 @@ body {
 }
 
 #cont-img img{
-    width:400px;
-    height:300px;
+    width:250px;
+    height:250px;
     padding-top:20px;
 }
 
@@ -63,8 +63,8 @@ body {
         width: 400px;
     }
     #cont-img img{
-        width:360px;
-        height:300px;
+        width:270px;
+        height:270px;
     }
 }
 
