@@ -124,12 +124,16 @@ body {
 #fourth{
     width:100%;
     background-color: #FAF6EB;
-    background-size: cover;   
+    background-size: cover; 
+    justify-content: space-around;  
+}
+#fourth-info{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top:50px;
     padding-bottom:50px;
+    flex-wrap: wrap;
 }
 .fourth-hr{
     border-bottom: transparent;
@@ -145,4 +149,7 @@ body {
 .info > h5{
     font-family: 'Cinzel', serif;
     color:rgb(128, 127, 122);
-    }
+}
+.info{
+    width: 245px;
+}
