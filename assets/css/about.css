@@ -81,3 +81,44 @@ body {
     border-top:1.5px solid #616368;
     border-bottom:transparent;
 }
+
+#third{
+    width:100%;
+    
+    background-color: white;
+    background-size: cover;    
+    background-image: url(../image/our_his-01.jpeg);
+}
+
+#third-bg{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: space-around;
+}
+#third-bg > h2{
+    color:#E5C175;
+    font-family: 'Cinzel', serif;
+}
+
+#third-bg > p{
+    color:white;
+}
+.third-hr{
+    width:70px;
+    color: white;
+    border-bottom: transparent;
+}
+
+.third-p{
+    margin-top: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+@media (max-width: 510px){
+    .third-p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
