@@ -218,7 +218,7 @@ body {
 
 #third-intro {
     display: flex;
-    height: 70%;
+    height: 60%;
     min-height: 200px;
     flex-direction: column;
     font-size: 2em;
