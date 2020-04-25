@@ -32,6 +32,7 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: black;
+    border: 3px solid #E5C175;
 }
 
 .container-fluid{
@@ -79,17 +80,17 @@ body{
 
   .boxed-btn {
     background: #fff;
-    color: #000;
+    color: #E5C175;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #000;
+    border: 1px solid #E5C175;
     letter-spacing: 3px;
     text-align: center;
-    color: #000 !important;
+    color: #E5C175 !important;
     text-transform: uppercase;
 }
 
@@ -100,12 +101,21 @@ a, .button {
     transition: 0.3s;
 }
 
+.boxed-btn:hover {
+  background: #E5C175;
+  color: #fff !important;
+  border: 1px solid #E5C175;
+}
+
+
 .modal-content{
     
     width: 100%;
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 35px;
+    
+    
 }
 
 #first {
@@ -137,7 +147,7 @@ a, .button {
   background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
 }
 
-#fourth{
+#fourth {
   width:100%;
   background-color: #FAF6EB;
   background-size: cover; 
@@ -158,4 +168,34 @@ a, .button {
   border-top: 1px solid black;
   width: 40px;
   margin-left: 0px;
+}
+
+.info > h2{
+  font-family:"Palatino Linotype";
+  font-size: 19px;
+  font-weight: lighter;
+ 
+}
+.info > h5{
+  font-family:"Palatino Linotype";
+  font-size: 16px;
+  font-weight: lighter;
+}
+@media (max-width: 510px){
+  .info{
+      width: 245px;
+  }
+  #fourth-info{
+  padding-left: 0%;
+  padding-right: 0%;
+  }
+}
+
+.head-1{
+  font-family:"Palatino Linotype";
+}
+
+#font-content{
+  font-family: 'Alegreya';
+    font-weight: lighter;
 }
