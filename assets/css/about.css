@@ -28,7 +28,7 @@ body {
 
 #hr{
     margin-top: 5px;
-    width: 2px;
+    width: 215px;
     border: 0;
     height: 3px;
     background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
