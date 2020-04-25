@@ -215,6 +215,50 @@ body {
     justify-content: space-around;
 }
 
+#seventh {
+    width:100%;
+    background-color: #FAF6EB;
+    background-size: cover; 
+    justify-content: space-around;  
+}
+#seventh-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom:50px;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.seventh-hr{
+    border-bottom: transparent;
+    border-top: 1px solid black;
+    width: 40px;
+    margin-left: 0px;
+}
+
+.info > h2{
+    font-family: 'Goudy Trajan Regular';
+    font-size: 19px;
+    font-weight: lighter;
+   
+}
+.info > h5{
+    font-family: 'Goudy Trajan Regular';
+    font-size: 16px;
+    font-weight: lighter;
+}
+@media (max-width: 510px){
+    .info{
+        width: 245px;
+    }
+    #seventh-info{
+    padding-left: 0%;
+    padding-right: 0%;
+    }
+}
+
 @media screen and (min-width: 1290px){
     #first-head {
         font-size: 5em;
