@@ -219,6 +219,7 @@ body {
     color: #E5C175;
     background-image: url("../image/pillars-01.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #fifth > div {
@@ -244,13 +245,107 @@ body {
 #fifth-desc {
     display: flex;
     justify-content: center;
-    padding-bottom: 150px;
+    padding-bottom: 39px;
 }
 
 #fifth-desc div {
     width: 80%;
     color: #c8c5bc;
     text-align: justify;
+}
+
+#fifth-team {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#fifth-team > div {
+    /* height: 350px; */
+    width: 230px;
+    background-color: #F5F6F7;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#fifth-team > div > div {
+    border: 1px solid rgb(141, 116, 62);
+    height: 99%;
+}
+
+#team-img {
+    height: 200px;
+}
+
+.team-img-1 {
+    background-image: url("../image/Pawan\ Kawrani\ -\ Partner.jpeg");
+    background-position: -200px -60px;
+}
+
+.team-img-2 {
+    background-image: url("../image/Sahil\ Mahajan\ -\ Partner.jpeg");
+    background-position: -300px -55px;
+}
+
+.team-img-3 {
+    background-image: url("../image/Abhimanyu\ Goel\ -\ Partner.jpeg");
+    background-position: -130px -40px;
+}
+
+.team-img-4 {
+    background-image: url("../image/lawyer4.png");
+    background-position: 0px -100px;
+    background-size: 100%;
+}
+
+.team-img-5 {
+    background-image: url("../image/JITESH.jpg");
+    background-position: -380px 0px;
+    background-size: 150%;
+}
+
+#team-name {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 10px 0px;
+}
+
+#team-hr {
+    display: flex;
+    justify-content: center;
+}
+
+#team-hr > div {
+    width: 30%;
+    border-top: 1px solid rgb(58, 60, 66);
+}
+
+#team-details {
+    padding: 10px;
+    color: #2D313D;
+    text-align: center;
+}
+
+#team-btn {
+    text-align: center;
+    transition: 0.3s;
+    margin: 10px;
+    background-color: #2D313D;
+    padding: 15px 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#team-btn:hover {
+    transition: 0.3s;
+    background-color: #17191F;
+}
+
+#fifth-team a {
+    text-decoration: none;
+    color: #E5C175;
 }
 
 #seventh {
