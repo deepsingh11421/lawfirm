@@ -22,7 +22,7 @@ body {
 #first-head{
     font-family: 'Cinzel', serif;
     color: white;
-    font-size: 3.2em;
+    font-size: 3em;
 }
 
 #first-desc {
@@ -291,7 +291,7 @@ body {
 
 @media screen and (min-width: 1290px){
     #first-head {
-        font-size: 5em;
+        font-size: 4em;
     }
     #first-desc {
         font-size: 1.5em;
@@ -317,7 +317,7 @@ body {
     }
 }
 
-@media (max-width: 780px){
+@media (max-width: 800px){
     #first-head {
         font-size: 2em;
     }
@@ -333,7 +333,7 @@ body {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 540px){
     #first-head {
         font-size: 1.4em;
     }
@@ -360,7 +360,7 @@ body {
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 380px){
     #first-head {
         font-size: 1.2em;
     }
