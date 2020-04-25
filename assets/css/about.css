@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: #F5F6F7;
+    
 }
 
 #first {
@@ -82,13 +83,14 @@ body {
 }
 
 .heading-1{
-    font-family: 'Goudy Trajan Regular';
+    /* font-family: 'Goudy Trajan Regular'; */
+    font-family:"Palatino Linotype";
     color: #E5C175;
     font-size: 22px;
     font-weight: lighter;
 }
 .p-tag{
-    font-family: "Minion Pro";
+    font-family: 'Alegreya';
 }
 .second-hr{
     width:50px;
@@ -189,6 +191,7 @@ body {
 }
 .info > h5{
     font-family: 'Goudy Trajan Regular';
+    font-size: 16px;
     font-weight: lighter;
 }
 @media (max-width: 510px){
