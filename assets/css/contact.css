@@ -159,4 +159,28 @@
     margin-left: 0px;
 }
 
+
+.info > h2{
+  font-family:"Palatino Linotype";
+  font-size: 19px;
+  font-weight: lighter;
+ 
+}
+.info > h5{
+  font-family:"Palatino Linotype";
+  font-size: 16px;
+  font-weight: lighter;
+}
+@media (max-width: 510px){
+  .info{
+      width: 245px;
+  }
+  #fourth-info{
+  padding-left: 0%;
+  padding-right: 0%;
+  }
+}
+.head-1{
+  font-family:"Palatino Linotype";
+}
   
