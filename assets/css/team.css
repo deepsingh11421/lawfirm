@@ -32,7 +32,8 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: black;
-    border: 3px solid #E5C175;
+    border: 2px solid #E5C175 !important;
+    
 }
 
 .container-fluid{
