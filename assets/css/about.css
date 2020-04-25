@@ -19,7 +19,7 @@ body {
 
 #first-head{
     padding-top: 120px;
-    font-family: 'Goudy Trajan Regular';
+    font-family:"Palatino Linotype";
     color: #E5C175;
     font-size: 40px;
     font-weight: lighter;
@@ -28,7 +28,7 @@ body {
 
 #hr{
     margin-top: 5px;
-    width: 210px;
+    width: 215px;
     border: 0;
     height: 3px;
     background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
@@ -115,7 +115,7 @@ body {
     padding-left:8%;
 }
 #third-bg > h2{
-    font-family: 'Goudy Trajan Regular';
+    font-family:"Palatino Linotype";
     color: #E5C175;
     font-size: 22px;
     font-weight: lighter;
@@ -134,7 +134,7 @@ body {
     margin-top: 40px;
     padding-left: 110px;
     padding-right: 110px;
-    font-family: "Minion Pro";
+    font-family: 'Alegreya';
     font-weight: lighter;
 }
 
@@ -185,13 +185,13 @@ body {
 }
 
 .info > h2{
-    font-family: 'Goudy Trajan Regular';
+    font-family:"Palatino Linotype";
     font-size: 19px;
     font-weight: lighter;
    
 }
 .info > h5{
-    font-family: 'Goudy Trajan Regular';
+    font-family:"Palatino Linotype";
     font-size: 16px;
     font-weight: lighter;
 }
