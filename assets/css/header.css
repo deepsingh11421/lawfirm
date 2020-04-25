@@ -3,6 +3,7 @@ header {
     transition: 0.3s !important;
     position: fixed !important;
     z-index: 10 !important;
+    font-family: 'Cinzel', serif !important;
     text-align: right !important;
     background: rgba(0, 0, 0, 0.5) !important;
     color: #F5F6F7 !important;

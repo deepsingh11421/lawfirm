@@ -1,3 +1,8 @@
+@font-face {
+    font-family: palatino;
+    src: url("../font/palatino-linotype.ttf") format('truetype');
+}
+
 body {
     margin: 0px;
     background-color: #F5F6F7;
@@ -34,6 +39,7 @@ body {
 
 #first-desc div {
     width: 650px;
+    font-family: 'Alegreya', serif;
 }
 
 #first-btn {
@@ -93,7 +99,7 @@ body {
 }
 
 #second-div-head {
-    font-family: 'Cinzel', serif;
+    font-family: palatino;
     color: #E5C175;
     font-size: 1.5em;    
 }
@@ -101,6 +107,7 @@ body {
 #second-div-desc {
     color: #c8c5bc;
     padding: 0px 25px;
+    font-family: 'Alegreya', serif;
 }
 
 #second-div-btn {
@@ -161,7 +168,7 @@ body {
 #third-head {
     position: relative;
     z-index: 10;
-    font-family: 'Cinzel', serif;
+    font-family: palatino;
     margin-left: 120px;
     margin-top: 50px;
     z-index: 10;
@@ -178,7 +185,8 @@ body {
 }
 
 #third-desc {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Alegreya', serif;
     margin-left: 120px;
     margin-right: 50px;
     text-align: justify;
@@ -229,6 +237,7 @@ body {
 #fifth-water {
     position: absolute;
     font-size: 7em;
+    font-family: palatino;
     color: #E5C175;
     opacity: 0.2;
     letter-spacing: 5px;
@@ -237,13 +246,15 @@ body {
 }
 
 #fifth-head {
+    font-family: palatino;
     text-align: center;
-    padding: 44px 0px;
+    padding: 50px 0px;
     font-size: 2.5em;
 }
 
 #fifth-desc {
     display: flex;
+    font-size: 1.2em;
     justify-content: center;
     padding-bottom: 39px;
 }
@@ -251,6 +262,7 @@ body {
 #fifth-desc div {
     width: 80%;
     color: #c8c5bc;
+    font-family: 'Alegreya', serif;
     text-align: justify;
 }
 
@@ -309,6 +321,7 @@ body {
 
 #team-name {
     text-align: center;
+    font-family: palatino;
     font-size: 1.3em;
     margin: 10px 0px;
 }
@@ -326,6 +339,7 @@ body {
 #team-details {
     padding: 10px;
     color: #2D313D;
+    font-family: 'Alegreya', serif;
     text-align: center;
 }
 
