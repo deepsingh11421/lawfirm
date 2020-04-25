@@ -1,6 +1,4 @@
-html{
-  font-family: 'Cinzel', serif;
-}
+
 
 
 .container{
@@ -137,4 +135,27 @@ a, .button {
   border: 0;
   height: 3px;
   background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
+}
+
+#fourth{
+  width:100%;
+  background-color: #FAF6EB;
+  background-size: cover; 
+  justify-content: space-around;  
+}
+#fourth-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top:50px;
+  padding-bottom:50px;
+  flex-wrap: wrap;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.fourth-hr{
+  border-bottom: transparent;
+  border-top: 1px solid black;
+  width: 40px;
+  margin-left: 0px;
 }
