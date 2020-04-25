@@ -215,12 +215,51 @@ body {
     justify-content: space-around;
 }
 
+#fifth {
+    color: #E5C175;
+    background-image: url("../image/pillars-01.jpeg");
+    background-size: cover;
+}
+
+#fifth > div {
+    background: rgb(104, 104, 104, 0.5);
+}
+
+#fifth-water {
+    position: absolute;
+    font-size: 7em;
+    color: #E5C175;
+    opacity: 0.2;
+    letter-spacing: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+#fifth-head {
+    text-align: center;
+    padding: 44px 0px;
+    font-size: 2.5em;
+}
+
+#fifth-desc {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+#fifth-desc div {
+    width: 80%;
+    color: #c8c5bc;
+    text-align: justify;
+}
+
 #seventh {
     width:100%;
     background-color: #FAF6EB;
     background-size: cover; 
     justify-content: space-around;  
 }
+
 #seventh-info{
     display: flex;
     flex-direction: row;
@@ -249,15 +288,6 @@ body {
     font-size: 16px;
     font-weight: lighter;
 }
-@media (max-width: 510px){
-    .info{
-        width: 245px;
-    }
-    #seventh-info{
-    padding-left: 0%;
-    padding-right: 0%;
-    }
-}
 
 @media screen and (min-width: 1290px){
     #first-head {
@@ -274,7 +304,6 @@ body {
     }
     .second-div {
         width: 300px;
-        /* height: 350px; */
     }
 }
 
@@ -291,6 +320,16 @@ body {
 @media (max-width: 780px){
     #first-head {
         font-size: 2em;
+    }
+}
+
+@media (max-width: 510px){
+    .info{
+        width: 245px;
+    }
+    #seventh-info{
+    padding-left: 0%;
+    padding-right: 0%;
     }
 }
 

@@ -161,13 +161,13 @@ body {
             }
 }
 
-#seventh {
+#fourth {
     width:100%;
     background-color: #FAF6EB;
     background-size: cover; 
     justify-content: space-around;  
 }
-#seventh-info{
+#fourth-info{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -177,7 +177,7 @@ body {
     padding-left: 8%;
     padding-right: 8%;
 }
-.seventh-hr{
+.fourth-hr{
     border-bottom: transparent;
     border-top: 1px solid black;
     width: 40px;
