@@ -22,13 +22,14 @@ body {
 #first-head{
     font-family: 'Cinzel', serif;
     color: white;
-    font-size: 3em;
+    font-size: 3.2em;
 }
 
 #first-desc {
     display: flex;
     justify-content: center;
     color: #E5C175;
+    font-size: 1.1em;
 }
 
 #first-desc div {
@@ -214,6 +215,25 @@ body {
     justify-content: space-around;
 }
 
+@media screen and (min-width: 1290px){
+    #first-head {
+        font-size: 5em;
+    }
+    #first-desc {
+        font-size: 1.5em;
+    }
+    #first-desc div {
+        width: 1000px;
+    }
+    #first-btn-text {
+        font-size: 2em;
+    }
+    .second-div {
+        width: 300px;
+        /* height: 350px; */
+    }
+}
+
 
 @media screen and (max-width: 1000px){
     #third-about {
@@ -224,7 +244,7 @@ body {
     }
 }
 
-@media (max-width: 740px){
+@media (max-width: 780px){
     #first-head {
         font-size: 2em;
     }
@@ -258,6 +278,10 @@ body {
 }
 
 @media screen and (max-width: 360px){
+    #first-head {
+        font-size: 1.2em;
+    }
+    
     #third-intro {
         font-size: 1.5rem;
     }
