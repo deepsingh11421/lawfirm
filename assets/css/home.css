@@ -400,6 +400,9 @@ body {
     .second-div {
         width: 300px;
     }
+    #fifth-team > div {
+        margin: 5px 20px;
+    }
 }
 
 
