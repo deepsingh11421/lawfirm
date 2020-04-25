@@ -183,4 +183,10 @@
 .head-1{
   font-family:"Palatino Linotype";
 }
+
+#font-content{
+  font-family: 'Alegreya';
+    font-weight: lighter;
+    font-size: 18px;
+}
   
