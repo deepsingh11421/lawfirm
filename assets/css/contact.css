@@ -1,83 +1,38 @@
-body {
-    margin: 0px;
-    background-color: #F5F6F7;
-}
-
-#first {
-    height: 300px;
-    background-image: url("../image/pillars-01.jpeg");
-    background-color: black;
-    background-size: cover;    
-}
-
-#first-bg {
-    height: 100%;
-    text-align: center;
-    background: rgba(63, 63, 63, 0.6);
-}
-
-#first-head{
-    padding-top: 120px;
-    font-family: 'Cinzel', serif;
-    color: #E5C175;
-    font-size: 3em;
-}
 .container-fluid{
     background-color: rgb(254, 255, 209);
     padding-bottom: 30px;
     padding-top: 30px;
 }
-
-
-#hr{
+#first {
+    height: 300px;
+    background-image: url("../image/pillars-01.jpeg");
+    background-color: black;
+    background-size: cover;    
+  }
+  
+  #first-bg {
+    height: 100%;
+    text-align: center;
+    background: rgba(63, 63, 63, 0.6);
+  }
+  
+  #first-head{
+    padding-top: 120px;
+    font-family: 'Cinzel', serif;
+    color: #E5C175;
+    font-size: 3em;
+  }
+  
+  
+  #hr{
     margin-top: 5px;
     width: 250px;
     border: 0;
     height: 3px;
     background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
-}
-.contact-title {
-    font-size: 27px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
+  }
 
-.contact-info {
-    margin-bottom: 25px;
-}
-
-.media {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-}
-.form-group {
-    margin-bottom: 1rem;
-}
-.form-contact .form-control {
-    border: 1px solid #e5e6e9;
-    border-radius: 0px;
-    height: 48px;
-    padding-left: 18px;
-    font-size: 13px;
-    background: transparent;
-}
-
-.w-100 {
-    width: 100%;
-}
-.contact-info__icon {
-    margin-right: 20px;
-}
-.media-body {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-}
-.boxed-btn {
+  .boxed-btn {
     background: #fff;
     color: #000;
     display: inline-block;
@@ -86,9 +41,146 @@ body {
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #000;
+    border: 1px solid #E5C175;
     letter-spacing: 3px;
     text-align: center;
     color: #E5C175 !important;
     text-transform: uppercase;
 }
+
+.boxed-btn:hover {
+    background: #E5C175;
+    color: #fff !important;
+    border: 1px solid #E5C175;
+  }
+
+  
+  .contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* line 53, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact label {
+    font-size: 14px;
+  }
+  
+  /* line 57, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact .form-group {
+    margin-bottom: 30px;
+  }
+  
+  /* line 61, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+  }
+  
+  /* line 69, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  /* line 74, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact .form-control::placeholder {
+    font-weight: 300;
+    color: #999999;
+  }
+  
+  /* line 80, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact textarea {
+    border-radius: 0px;
+    height: 100% !important;
+  }
+   /* line 53, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact label {
+    font-size: 14px;
+  }
+  
+  /* line 57, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact .form-group {
+    margin-bottom: 30px;
+  }
+  
+  /* line 61, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+  }
+  
+  /* line 69, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  /* line 74, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact .form-control::placeholder {
+    font-weight: 300;
+    color: #999999;
+  }
+  
+  /* line 80, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_contact.scss */
+  .form-contact textarea {
+    border-radius: 0px;
+    height: 100% !important;
+  }
+
+  #fourth{
+    width:100%;
+    background-color: #FAF6EB;
+    background-size: cover; 
+    justify-content: space-around;  
+}
+#fourth-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom:50px;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.fourth-hr{
+    border-bottom: transparent;
+    border-top: 1px solid black;
+    width: 40px;
+    margin-left: 0px;
+}
+
+
+.info > h2{
+  font-family:"Palatino Linotype";
+  font-size: 19px;
+  font-weight: lighter;
+ 
+}
+.info > h5{
+  font-family:"Palatino Linotype";
+  font-size: 16px;
+  font-weight: lighter;
+}
+@media (max-width: 510px){
+  .info{
+      width: 245px;
+  }
+  #fourth-info{
+  padding-left: 0%;
+  padding-right: 0%;
+  }
+}
+.head-1{
+  font-family:"Palatino Linotype";
+}
+  
