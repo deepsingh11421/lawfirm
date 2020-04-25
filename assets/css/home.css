@@ -285,7 +285,7 @@ body {
 
 #fifth-team > div > div {
     border: 1px solid rgb(141, 116, 62);
-    height: 99%;
+    /* height: 99%; */
 }
 
 #team-img {
