@@ -84,7 +84,7 @@ header a:hover {
     display: none;
 }
 
-@media (max-width: 840px){
+@media (max-width: 860px){
     #header-list label{
         display: inline-block;
         color: #F5F6F7;

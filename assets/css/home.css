@@ -22,7 +22,7 @@ body {
 #first-head{
     font-family: 'Cinzel', serif;
     color: white;
-    font-size: 3.2em;
+    font-size: 3em;
 }
 
 #first-desc {
@@ -215,9 +215,83 @@ body {
     justify-content: space-around;
 }
 
+#fifth {
+    color: #E5C175;
+    background-image: url("../image/pillars-01.jpeg");
+    background-size: cover;
+}
+
+#fifth > div {
+    background: rgb(104, 104, 104, 0.5);
+}
+
+#fifth-water {
+    position: absolute;
+    font-size: 7em;
+    color: #E5C175;
+    opacity: 0.2;
+    letter-spacing: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+#fifth-head {
+    text-align: center;
+    padding: 44px 0px;
+    font-size: 2.5em;
+}
+
+#fifth-desc {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+#fifth-desc div {
+    width: 80%;
+    color: #c8c5bc;
+    text-align: justify;
+}
+
+#seventh {
+    width:100%;
+    background-color: #FAF6EB;
+    background-size: cover; 
+    justify-content: space-around;  
+}
+
+#seventh-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom:50px;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.seventh-hr{
+    border-bottom: transparent;
+    border-top: 1px solid black;
+    width: 40px;
+    margin-left: 0px;
+}
+
+.info > h2{
+    font-family:"Palatino Linotype";
+    font-size: 19px;
+    font-weight: lighter;
+   
+}
+.info > h5{
+    font-family:"Palatino Linotype";
+    font-size: 16px;
+    font-weight: lighter;
+}
+
 @media screen and (min-width: 1290px){
     #first-head {
-        font-size: 5em;
+        font-size: 4em;
     }
     #first-desc {
         font-size: 1.5em;
@@ -230,7 +304,6 @@ body {
     }
     .second-div {
         width: 300px;
-        /* height: 350px; */
     }
 }
 
@@ -244,13 +317,23 @@ body {
     }
 }
 
-@media (max-width: 780px){
+@media (max-width: 800px){
     #first-head {
         font-size: 2em;
     }
 }
 
-@media screen and (max-width: 500px){
+@media (max-width: 510px){
+    .info{
+        width: 245px;
+    }
+    #seventh-info{
+    padding-left: 0%;
+    padding-right: 0%;
+    }
+}
+
+@media screen and (max-width: 540px){
     #first-head {
         font-size: 1.4em;
     }
@@ -277,7 +360,7 @@ body {
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 380px){
     #first-head {
         font-size: 1.2em;
     }
