@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="boot">
         <div id="header-list">
             <label for="hamburger">&#9776;</label>
             <input type="checkbox" id="hamburger" />
@@ -39,8 +39,8 @@
                 <a href="about.html">
                     <li>ABOUT US</li>
                 </a>
-                <li class="drop">PRACTICE AREAS
-                    <ul class="drop-list practice">
+                <li class="drop" onclick="myFunction('practice')">PRACTICE AREAS &nbsp;<i class="fas fa-sort-down" style="position: absolute; margin-top: -2px;"></i>
+                    <ul id="practice" class="drop-list practice">
                         <a href="./litigation.html">
                             <li>LITIGATION<span class="drop-span"> - &nbsp;</span></li>
                         </a>
@@ -58,8 +58,8 @@
                         </a>
                     </ul>
                 </li>
-                <li class="drop">OUR TEAM
-                    <ul class="drop-list">
+                <li class="drop" onclick="myFunction('our-team')">OUR TEAM &nbsp;<i class="fas fa-sort-down" style="position: absolute; margin-top: -2px;"></i>
+                    <ul class="drop-list" id="our-team">
                         <a href="pawan.html">
                             <li>PAWAN KAWRANI<span class="drop-span"> - &nbsp;</span></li>
                         </a>
@@ -77,17 +77,17 @@
                         </a>
                     </ul>
                 </li>
-                <li class="drop career">CAREER
-                    <ul class="drop-list">
-                        <a href="">
+                <li class="drop career" onclick="myFunction('career-list')">CAREER &nbsp;<i class="fas fa-sort-down" style="position: absolute; margin-top: -2px;"></i>
+                    <ul class="drop-list" id="career-list">
+                        <a href="recuritment.html">
                             <li>RECRUITMENT<span class="drop-span"> - &nbsp;</span></li>
                         </a>
-                        <a href="">
+                        <a href="intern.html">
                             <li>INTERNSHIP<span class="drop-span"> - &nbsp;</span></li>
                         </a>
                     </ul>
                 </li>
-
+               
                 <a href="contact.html">
                     <li>CONTACT US</li>
                 </a>
