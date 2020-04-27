@@ -150,7 +150,6 @@ body {
 
 #third > div {
     flex-grow: 1;
-    /* height: 550px; */
 }
 
 #third-about {
@@ -185,7 +184,6 @@ body {
 }
 
 #third-desc {
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Alegreya', serif;
     margin-left: 120px;
     margin-right: 50px;
@@ -275,7 +273,6 @@ body {
 }
 
 #fifth-team > div {
-    /* height: 350px; */
     width: 230px;
     background-color: #F5F6F7;
     margin: 5px;
@@ -285,7 +282,6 @@ body {
 
 #fifth-team > div > div {
     border: 1px solid rgb(141, 116, 62);
-    /* height: 99%; */
 }
 
 #team-img {

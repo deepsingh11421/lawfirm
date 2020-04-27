@@ -25,6 +25,30 @@
     <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
     <!-- Footer Font -->
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+    <script>
+    function myFunction(eventID) {
+        document.getElementById(eventID).classList.toggle("show");
+    }
+
+    window.onclick = function(e) {
+        if (!e.target.matches('.drop')) {
+            var myDropdown = document.getElementById("practice");
+            var myDD = document.getElementById("our-team");
+            var myList = document.getElementById("career-list");
+            if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+            }
+            if (myDD.classList.contains('show')) {
+                myDD.classList.remove('show');
+            }
+            if (myList.classList.contains('show')) {
+                myList.classList.remove('show');
+            }
+        }
+    }
+    </script>
+
 </head>
 
 <body>
@@ -39,8 +63,8 @@
                 <a href="about.html">
                     <li>ABOUT US</li>
                 </a>
-                <li class="drop">PRACTICE AREAS
-                    <ul class="drop-list practice">
+                <li class="drop" onclick="myFunction('practice')">PRACTICE AREAS &nbsp;<i class="fas fa-sort-down" style="position: absolute; margin-top: -2px;"></i>
+                    <ul id="practice" class="drop-list practice">
                         <a href="">
                             <li>LITIGATION<span class="drop-span"> - &nbsp;</span></li>
                         </a>
@@ -58,8 +82,8 @@
                         </a>
                     </ul>
                 </li>
-                <li class="drop">OUR TEAM
-                    <ul class="drop-list">
+                <li class="drop" onclick="myFunction('our-team')">OUR TEAM &nbsp;<i class="fas fa-sort-down" style="position: absolute; margin-top: -2px;"></i>
+                    <ul class="drop-list" id="our-team">
                         <a href="pawan.html">
                             <li>PAWAN KAWRANI<span class="drop-span"> - &nbsp;</span></li>
                         </a>
@@ -77,8 +101,8 @@
                         </a>
                     </ul>
                 </li>
-                <li class="drop career">CAREER
-                    <ul class="drop-list">
+                <li class="drop career" onclick="myFunction('career-list')">CAREER &nbsp;<i class="fas fa-sort-down" style="position: absolute; margin-top: -2px;"></i>
+                    <ul class="drop-list" id="career-list">
                         <a href="recuritment.html">
                             <li>RECRUITMENT<span class="drop-span"> - &nbsp;</span></li>
                         </a>
@@ -269,9 +293,7 @@
             <div id="fifth-team">
                 <div>
                     <div>
-                        <div id="team-img" class="team-img-1">
-                            <!-- <img src="assets/image/Pawan Kawrani - Partner.jpeg" width="100%" alt=""> -->
-                        </div>
+                        <div id="team-img" class="team-img-1"></div>
                         <div id="team-name">
                             PAWAN KAWRANI
                         </div>
@@ -290,9 +312,7 @@
                 </div>
                 <div>
                     <div>
-                        <div id="team-img" class="team-img-2">
-                            <!-- <img src="assets/image/Pawan Kawrani - Partner.jpeg" width="100%" alt=""> -->
-                        </div>
+                        <div id="team-img" class="team-img-2"></div>
                         <div id="team-name">
                             SAHIL MAHAJAN
                         </div>
@@ -311,9 +331,7 @@
                 </div>
                 <div>
                     <div>
-                        <div id="team-img" class="team-img-3">
-                            <!-- <img src="assets/image/Pawan Kawrani - Partner.jpeg" width="100%" alt=""> -->
-                        </div>
+                        <div id="team-img" class="team-img-3"></div>
                         <div id="team-name">
                             ABHIMANYU GOEL
                         </div>
@@ -332,9 +350,7 @@
                 </div>
                 <div>
                     <div>
-                        <div id="team-img" class="team-img-4">
-                            <!-- <img src="assets/image/Pawan Kawrani - Partner.jpeg" width="100%" alt=""> -->
-                        </div>
+                        <div id="team-img" class="team-img-4"></div>
                         <div id="team-name">
                             ANIL GARG
                         </div>
