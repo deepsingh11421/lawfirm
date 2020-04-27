@@ -208,10 +208,17 @@ body {
 }
 
 #third-img {
-    background-image: url("../image/about.png");
     background-size: cover;
     background-position: center;
     width: 0px;
+}
+
+.third {
+    background-image: url("../image/about.png");
+}
+
+.img {
+    background-image: url("../image/consult.jpg");
 }
 
 #third-intro {
