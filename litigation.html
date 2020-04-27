@@ -19,6 +19,7 @@
     <!-- Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
@@ -107,7 +108,7 @@
             <div class="col-xl-12">
                 <h1 class="heading-1" style="color:#E5C175;"> Litigation </h1>
                 <hr class="hr-1">
-                <p style="padding-left: 25px; padding-right: 25px;" class="text-justify">The Firm has qualified
+                <p style="padding-left: 25px; padding-right: 25px;" class="text-justify main-hed">The Firm has qualified
                     attorneys
                     expertly and vast experience in litigation, appearing regularly altogether forums in India and
                     representing
@@ -159,6 +160,7 @@
             </div>
         </div>
     </div>
+    
     <div class="container-bg acc-start">
         <div class="container">
             <button class="accordion">Property and Real Estate Laws</button>
@@ -542,6 +544,22 @@
             ADVOCATES
         </section>
     </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>

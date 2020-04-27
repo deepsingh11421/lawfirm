@@ -79,6 +79,7 @@ body {
 }
 
 .accordion {
+    font-family:"Palatino Linotype" ;
     background-color: #E5C175;
     color:#fff;
     cursor: pointer;
@@ -123,7 +124,7 @@ body {
      padding-top: 2px; 
     width: 78%;
     margin-left: 11%;
-    background-color: white;
+    background-color: #FAF6EB;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -131,10 +132,9 @@ body {
   
 .acc-start{
     width:100%;
-    
     background-size: cover; 
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
   
 .hr-1{
@@ -151,4 +151,13 @@ body {
     font-size: 40px;
     font-weight: lighter;
     margin-left: 24px;
+}
+
+.text-justify{
+    font-family: 'Alegreya';
+}
+
+.main-hed{
+        font-family: 'Alegreya';
+        font-size: 16px;
 }
