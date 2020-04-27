@@ -89,7 +89,18 @@ header a:hover {
     display: block !important;
 }
 
+.boot {
+    padding-top: 15px !important;
+    font-size: 1.14em !important;
+    padding-bottom: 5px !important;
+}
+
 @media (max-width: 860px){
+    .boot {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
     #header-list label{
         display: inline-block !important;
         color: #F5F6F7 !important;
