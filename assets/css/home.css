@@ -3,6 +3,17 @@
     src: url("../font/palatino-linotype.ttf") format('truetype');
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 body {
     margin: 0px;
     background-color: #F5F6F7;
@@ -356,6 +367,50 @@ body {
 #fifth-team a {
     text-decoration: none;
     color: #E5C175;
+}
+
+.fourth-form {
+    display: flex;
+    padding: 30px 50px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form {
+    width: 200px;
+    flex-grow: 1;
+    padding: 10px;
+    font-family: 'Alegreya', serif;
+    border: 1px solid #616368;
+    margin: 10px 5px;
+}
+
+.form-desc {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #616368;
+    margin: 10px 5px;
+    resize: none;
+    font-family: 'Alegreya', serif;
+    font-size: 0.9em;
+    height: 150px;
+}
+
+.form-btn {
+    width: 100%;
+    margin: 10px 5px;
+    padding: 10px 0px;
+    border: 1px solid #616368;
+    background-color: #616368;
+    color: #F5F6F7;
+    font-family: 'Cinzel', serif;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #17191F;
 }
 
 #seventh {
