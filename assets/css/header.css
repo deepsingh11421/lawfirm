@@ -48,8 +48,8 @@ header a:hover {
     display: none !important;
 }
 
-.drop:hover .drop-list{
-    display: block !important;
+.drop:hover {
+    cursor: pointer !important;
 }
 
 .drop-list {
@@ -83,6 +83,10 @@ header a:hover {
 
 .drop-span {
     display: none !important;
+}
+
+.show {
+    display: block !important;
 }
 
 @media (max-width: 860px){
