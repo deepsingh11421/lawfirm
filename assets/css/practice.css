@@ -81,7 +81,7 @@ body {
 .accordion {
     font-family:"Palatino Linotype" ;
     background-color: #E5C175;
-    color:#fff;
+    color:#2D313D;
     cursor: pointer;
     padding: 25px;
     padding-right: 20px;
@@ -96,7 +96,8 @@ body {
   }
   
   .accordion:hover {
-    background-color:  #777; 
+    background-color: #2D313D;
+    color: #c8c5bc;
   }
   
   /* .active, .accordion:hover {
@@ -124,7 +125,7 @@ body {
      padding-top: 2px; 
     width: 78%;
     margin-left: 11%;
-    background-color: #FAF6EB;
+    background-color: #2D313D;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -154,6 +155,7 @@ body {
 }
 
 .text-justify{
+    color: #c8c5bc;
     font-family: 'Alegreya';
 }
 
