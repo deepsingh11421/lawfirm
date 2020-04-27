@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    background-color: #F5F6F7;
+    
+}
+
+#first {
+    height: 300px;
+    background-image: url("../image/pillars-01.jpeg");
+    background-color: black;
+    background-size: cover;    
+}
+
+#first-bg {
+    height: 100%;
+    text-align: center;
+    background: rgba(63, 63, 63, 0.6);
+}
+
+#first-head{
+    padding-top: 120px;
+    font-family:"Palatino Linotype";
+    color: #E5C175;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+
+#hr{
+    margin-top: 5px;
+    width: 215px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(229, 193, 117, 0), rgba(229, 193, 117, 0.75), rgba(229, 193, 117, 0));
+}
+
+#fourth{
+    width:100%;
+    background-color: #FAF6EB;
+    background-size: cover; 
+    justify-content: space-around;  
+}
+#fourth-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:50px;
+    padding-bottom:50px;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.fourth-hr{
+    border-bottom: transparent;
+    border-top: 1px solid black;
+    width: 40px;
+    margin-left: 0px;
+}
+
+.info > h2{
+    font-family:"Palatino Linotype";
+    font-size: 19px;
+    font-weight: lighter;
+   
+}
+.info > h5{
+    font-family:"Palatino Linotype";
+    font-size: 16px;
+    font-weight: lighter;
+}
+@media (max-width: 510px){
+    .info{
+        width: 245px;
+    }
+    #fourth-info{
+    padding-left: 0%;
+    padding-right: 0%;
+    }
+}
+
+.accordion {
+    background-color: #E5C175;
+    color:#fff;
+    cursor: pointer;
+    padding: 25px;
+    padding-right: 20px;
+    padding-left:20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.5s;
+    box-shadow: 1px 5px 10px 1px #777 ;
+  }
+  
+  .accordion:hover {
+    background-color:  #777; 
+  }
+  
+  /* .active, .accordion:hover {
+     background-color: #ccc; 
+  } */
+  
+  .accordion:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .text-pad{
+    padding-top: 10px;
+  }
+  .panel {
+    padding-left: 25px;
+    padding-right: 25px;
+     padding-top: 2px; 
+    width: 78%;
+    margin-left: 11%;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+.acc-start{
+    width:100%;
+    
+    background-size: cover; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+  
+.hr-1{
+    border:1.5px solid black;
+    width:50px;
+    margin-left: 25px;
+    border-bottom: transparent;
+}
+  
+.heading-1{
+    /* font-family: 'Goudy Trajan Regular'; */
+    font-family:"Palatino Linotype";
+    color: #E5C175;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 24px;
+}

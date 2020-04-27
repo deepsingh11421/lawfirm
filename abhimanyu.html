@@ -25,41 +25,80 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
         <!-- Footer Font -->
         <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+        <script src="assets/js/header.js"></script>
     </head>
     <body>
-        <header>
+        <header class="boot">
             <div id="header-list">
                 <label for="hamburger">&#9776;</label>
-                <input type="checkbox" id="hamburger"/>
+                <input type="checkbox" id="hamburger" />
                 <ul id="nav">
-                    <a href="index.html"><li>HOME</li></a>
-                    <a href="about.html"><li>ABOUT US</li></a>
-                    <li class="drop">PRACTICE AREAS
-                        <ul class="drop-list practice">
-                            <a href=""><li>LITIGATION<span class="drop-span"> - &nbsp;</span></li></a>
-                            <a href=""><li>ADR<span class="drop-span"> - &nbsp;</span></li></a>
-                            <a href=""><li>CORPORATE<span class="drop-span"> - &nbsp;</span></li></a>
-                            <a href=""><li>IPR<span class="drop-span"> - &nbsp;</span></li></a>
-                            <a href=""><li>ADVISORY<span class="drop-span"> - &nbsp;</span></li></a>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="about.html">
+                        <li>ABOUT US</li>
+                    </a>
+                    <li class="drop" onclick="myFunction('practice')">PRACTICE AREAS &nbsp;<i class="fas fa-sort-down" style="position: absolute; margin-top: -2px;"></i>
+                        <ul id="practice" class="drop-list practice">
+                            <a href="">
+                                <li>LITIGATION<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+                            <a href="">
+                                <li>ADR<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+                            <a href="">
+                                <li>CORPORATE<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+                            <a href="">
+                                <li>IPR<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+                            <a href="">
+                                <li>ADVISORY<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
                         </ul>
                     </li>
-                    <li class="drop">OUR TEAM
-                        <ul class="drop-list">
-                            <a href="pawan.html"><li>PAWAN KAWRANI<span class="drop-span"> - &nbsp;</span></li></a>
-                            <a href="sahil.html"><li>SAHIL MAHAJAN<span class="drop-span"> - &nbsp;</span></li></a>
-                            <a href="abhimanyu.html"><li>ABHIMANYU GOEL<span class="drop-span"> - &nbsp;</span></li></a>
-                            <a href="anil.html"><li>ANIL GARG<span class="drop-span"> - &nbsp;</span></li></a>
-                            <a href="jitesh.html"><li>JITESH TALWANI<span class="drop-span"> - &nbsp;</span></li></a>
+                    <li class="drop" onclick="myFunction('our-team')">OUR TEAM &nbsp;<i class="fas fa-sort-down" style="position: absolute; margin-top: -2px;"></i>
+                        <ul class="drop-list" id="our-team">
+                            <a href="pawan.html">
+                                <li>PAWAN KAWRANI<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+                            <a href="sahil.html">
+                                <li>SAHIL MAHAJAN<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+                            <a href="abhimanyu.html">
+                                <li>ABHIMANYU GOEL<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+                            <a href="anil.html">
+                                <li>ANIL GARG<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+                            <a href="jitesh.html">
+                                <li>JITESH TALWANI<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
                         </ul>
                     </li>
+<<<<<<< HEAD
                     <li class="drop career">CAREER
                         <ul class="drop-list">
                             <a href="recuritment.html"><li>RECRUITMENT<span class="drop-span"> - &nbsp;</span></li></a>
                             <a href="intern.html"><li>INTERNSHIP<span class="drop-span"> - &nbsp;</span></li></a>
+=======
+                    <li class="drop career" onclick="myFunction('career-list')">CAREER &nbsp;<i class="fas fa-sort-down" style="position: absolute; margin-top: -2px;"></i>
+                        <ul class="drop-list" id="career-list">
+                            <a href="recuritment.html">
+                                <li>RECRUITMENT<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+                            <a href="intern.html">
+                                <li>INTERNSHIP<span class="drop-span"> - &nbsp;</span></li>
+                            </a>
+>>>>>>> 655aa8f7ad302a17868a7328f8830d63b0894be6
                         </ul>
                     </li>
                    
-                    <a href="contact.html"><li>CONTACT US</li></a>
+                    <a href="contact.html">
+                        <li>CONTACT US</li>
+                    </a>
                 </ul>
             </div>
         </header>
