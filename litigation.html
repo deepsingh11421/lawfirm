@@ -543,35 +543,9 @@
             ADVOCATES
         </section>
     </footer>
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function () {
-                for(j=0;j<acc.length;j++){
-                    if(acc[j] != this){
-                        if(acc[j].classList.contains('active')){
-                            acc[j].classList.remove('active');
-                            var pan = acc[j].nextElementSibling;
-                            if (pan.style.maxHeight) {
-                                pan.style.maxHeight = null;
-                            } else {
-                                pan.style.maxHeight = pan.scrollHeight + "px";
-                            }
-                        }
-                    }
-                }
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-        }
+    <script src="./assets/js/accordion.js">
     </script>
+
 </body>
 
 </html>
