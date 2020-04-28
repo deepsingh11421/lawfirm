@@ -19,7 +19,7 @@ body {
 
 #first-head{
     padding-top: 120px;
-    font-family:"Palatino Linotype";
+    font-family: 'GFS Didot', serif;
     color: #E5C175;
     font-size: 40px;
     font-weight: lighter;
@@ -84,7 +84,7 @@ body {
 
 .heading-1{
     /* font-family: 'Goudy Trajan Regular'; */
-    font-family:"Palatino Linotype";
+    font-family: 'GFS Didot', serif;
     color: #E5C175;
     font-size: 22px;
     font-weight: lighter;
@@ -115,7 +115,7 @@ body {
     padding-left:7%;
 }
 #third-bg > h2{
-    font-family:"Palatino Linotype";
+    font-family: 'GFS Didot', serif;
     color: #E5C175;
     font-size: 22px;
     font-weight: lighter;
@@ -182,13 +182,13 @@ body {
 }
 
 .info > h2{
-    font-family:"Palatino Linotype";
+    font-family: 'GFS Didot', serif;
     font-size: 19px;
     font-weight: lighter;
    
 }
 .info > h5{
-    font-family:"Palatino Linotype";
+    font-family: 'GFS Didot', serif;
     font-size: 16px;
     font-weight: lighter;
 }
