@@ -125,7 +125,7 @@ body {
      padding-top: 2px; 
     width: 78%;
     margin-left: 11%;
-    background-color: #2D313D;
+    background-color:transparent;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -155,7 +155,7 @@ body {
 }
 
 .text-justify{
-    color: #c8c5bc;
+    color: black;
     font-family: 'Alegreya';
 }
 
