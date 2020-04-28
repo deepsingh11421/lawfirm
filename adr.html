@@ -112,7 +112,8 @@
             <div class="col-xl-12">
                 <h1 class="heading-1" style="color:#E5C175;"> ADR </h1>
                 <hr class="hr-1">
-                <p class="text-justify" style="padding-left: 25px; padding-right: 25px; padding-bottom: 25px;color: black;">
+                <p class="text-justify"
+                    style="padding-left: 25px; padding-right: 25px; padding-bottom: 25px;color: black;">
                     Alternative Dispute Resolution ("ADR") refers to any means of settling disputes outside of the
                     courtroom. ADR typically includes early neutral evaluation, negotiation, conciliation, mediation,
                     and arbitration. As burgeoning court queues, rising costs of litigation, and time delays continue to
@@ -135,7 +136,7 @@
 
     <div class="container-bg acc-start">
         <div class="container">
-            <button class="accordion">Arbitration &Conciliation</button>
+            <button class="accordion" id="acc-1">Arbitration &Conciliation</button>
             <div class="panel">
                 <p class="text-justify">The Indian Arbitration and Conciliation Act, 1996 the governing arbitration
                     statute in India. It is based on the Model Law on International Commercial Arbitration adopted by
@@ -163,7 +164,7 @@
                     • Domestic and International Arbitration<br></p>
             </div>
 
-            <button class="accordion">Mediation &Negotiation</button>
+            <button class="accordion" id="acc-2">Mediation &Negotiation</button>
             <div class="panel">
                 <p class="text-justify">A collaborative process where a mediator works with the parties to come to a
                     mutually agreeable solution; mediation is usually non-binding.
@@ -266,24 +267,26 @@
             ADVOCATES
         </section>
     </footer>
-    <script>
-    
-        var acc = document.getElementsByClassName("accordion");
-        var i;
 
+    <script>
+
+        var acc = document.getElementsByClassName("accordion");
+        var acc1 = document.getElementById("acc-1");
+        var acc2 = document.getElementById("acc-2");
+        var i;
         for (i = 0; i < acc.length; i++) {
+            console.log("on");
             acc[i].addEventListener("click", function () {
                 this.classList.toggle("active");
-                
                 var panel = this.nextElementSibling;
                 if (panel.style.maxHeight) {
                     panel.style.maxHeight = null;
                     this.style.backgroundColor = "#E5C175";
-                    this.style.color="#2D313D";
+                    this.style.color = "#2D313D";
                 } else {
                     panel.style.maxHeight = panel.scrollHeight + "px";
                     this.style.backgroundColor = "#2D313D";
-                    this.style.color="#c8c5bc";
+                    this.style.color = "#c8c5bc";
                 }
             });
         }
