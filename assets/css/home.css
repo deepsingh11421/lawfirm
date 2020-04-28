@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: palatino;
     src: url("../font/palatino-linotype.ttf") format('truetype');
-}
+} */
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -111,7 +111,7 @@ body {
 }
 
 #second-div-head {
-    font-family: palatino;
+    font-family: 'GFS Didot', serif;
     color: #E5C175;
     font-size: 1.5em;    
 }
@@ -179,7 +179,7 @@ body {
 #third-head {
     position: relative;
     z-index: 10;
-    font-family: palatino;
+    font-family: 'GFS Didot', serif;
     margin-left: 120px;
     margin-top: 50px;
     z-index: 10;
@@ -254,7 +254,7 @@ body {
 #fifth-water {
     position: absolute;
     font-size: 7em;
-    font-family: palatino;
+    font-family: 'GFS Didot', serif;
     color: #E5C175;
     opacity: 0.2;
     letter-spacing: 5px;
@@ -263,7 +263,7 @@ body {
 }
 
 #fifth-head {
-    font-family: palatino;
+    font-family: 'GFS Didot', serif;
     text-align: center;
     padding: 50px 0px;
     font-size: 2.5em;
@@ -337,7 +337,7 @@ body {
 
 #team-name {
     text-align: center;
-    font-family: palatino;
+    font-family: 'GFS Didot', serif;
     font-size: 1.3em;
     margin: 10px 0px;
 }
