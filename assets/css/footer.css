@@ -29,3 +29,12 @@ footer a:hover {
     transition: 0.3s;
     color: #E5C175;
 }
+
+.no-boot {
+    font-size: 0.87em;
+}
+
+.no-boot ul {
+    margin: 0px;
+    margin-bottom: 12px;
+}
