@@ -10,16 +10,12 @@ header {
 }
 
 #comp-logo{
-<<<<<<< HEAD
-
-=======
     /* display: inline-block; */
     position: absolute;
     top: 10;
     left: 10;
     width: 50px;
   
->>>>>>> 2878f4e55986e8fe11e3fd9372e5d124dcbe150f
 
 }
 
