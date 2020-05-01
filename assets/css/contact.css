@@ -146,8 +146,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:20px;
+    padding-bottom:20px;
     flex-wrap: wrap;
     padding-left: 8%;
     padding-right: 8%;
@@ -162,13 +162,13 @@
 
 .info > h2{
   font-family:"Palatino Linotype";
-  font-size: 19px;
+  font-size: 24px;
   font-weight: lighter;
  
 }
 .info > h5{
   font-family:"Palatino Linotype";
-  font-size: 16px;
+  font-size: 19px;
   font-weight: lighter;
 }
 @media (max-width: 510px){
