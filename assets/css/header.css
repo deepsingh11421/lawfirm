@@ -10,13 +10,18 @@ header {
 }
 
 #comp-logo{
-   
+    /* display: inline-block; */
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 50px;
   
 
 }
 
 #comp-logo > img{
-    
+    height: 50px;
+    width: 50px;
 }
 
 header li:hover {
@@ -113,6 +118,15 @@ header a:hover {
     .boot {
         padding-top: 0px !important;
         padding-bottom: 0px !important;
+    }
+
+    #comp-logo {
+        top: 4;
+    }
+
+    #comp-logo > img{
+        height: 40px;
+        width: 40px;
     }
 
     #header-list label{
