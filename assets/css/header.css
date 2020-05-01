@@ -10,13 +10,10 @@ header {
 }
 
 #comp-logo{
-    /* display: inline-block; */
     position: absolute;
     top: 10;
     left: 10;
     width: 50px;
-  
-
 }
 
 #comp-logo > img{
