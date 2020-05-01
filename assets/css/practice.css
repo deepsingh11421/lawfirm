@@ -79,7 +79,7 @@ body {
 }
 
 .accordion {
-    font-family: 'GFS Didot', serif;
+    font-family: 'Lato';    
     background-color: #E5C175;
     color:#2D313D;
     cursor: pointer;
@@ -154,11 +154,11 @@ body {
 
 .text-justify{
     color: black;
-    font-family: 'Alegreya';
+    font-family: 'Lato';
     font-size: 16px;
 }
 
 .main-hed{
-        font-family: 'Alegreya';
-        font-size: 16px;
+    font-family: 'Lato';        
+    font-size: 16px;
 }
