@@ -10,18 +10,10 @@ header {
 }
 
 #comp-logo{
-<<<<<<< HEAD
-    /* display: inline-block; */
-    position: absolute;
-    top: 10;
-    left: 10;
-    width: 50px;
-=======
     position: absolute !important;
     top: 10 !important;
     left: 10 !important;
     width: 50px !important;
->>>>>>> 5412866c74ef50ef9cf66dd5a8db895c8c3a7691
 }
 
 #comp-logo > img{
