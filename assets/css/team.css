@@ -158,8 +158,8 @@ a, .button {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top:20px;
+  padding-bottom:20px;
   flex-wrap: wrap;
   padding-left: 8%;
   padding-right: 8%;
