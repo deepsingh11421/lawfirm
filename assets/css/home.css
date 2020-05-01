@@ -21,7 +21,7 @@ body {
 
 #first {
     height: 95%;
-    background-image: url("../image/first.jpg");
+    background-image: url("../image/fourth.jpg");
     background-color: black;
     background-size: cover;
 }
@@ -62,19 +62,6 @@ body {
 #first a {
     color: #E5C175;
     text-decoration: none;
-}
-
-#first-btn-text {
-    border: 2px solid #E5C175;
-    padding: 10px 50px;
-    transition: 0.3s;
-    font-size: 1.3em;
-    font-family: 'Jura', sans-serif;
-}
-
-#first-btn-text:hover {
-    transition: 0.3s;
-    border: 2px solid rgb(255, 238, 201);
 }
 
 #second {
@@ -205,7 +192,12 @@ body {
 
 #third-desc a {
     text-decoration: none;
-    color: rgb(255, 123, 0);
+    color: #E5C175;
+    background-color: #2D313D;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid #E5C175;
+    padding: 10px 30px;
+    transition: 0.3s;
 }
 
 #third-img {
@@ -384,6 +376,7 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0px;
 }
 
 .form {
@@ -529,6 +522,10 @@ body {
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
+.intro-mg {
+    margin: 80px !important;
+}
   
 @-webkit-keyframes fade {
     from {opacity: .4}
@@ -604,6 +601,9 @@ body {
     }
     #third-img {
         width: 100%;
+    }
+    .intro-mg {
+        margin: 40px 80px !important;
     }
 }
 
