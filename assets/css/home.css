@@ -523,6 +523,10 @@ body {
     animation-duration: 1.5s;
 }
 
+.third-mg {
+    padding-top: 100px;
+}
+
 .intro-mg {
     margin: 80px !important;
 }
@@ -604,6 +608,9 @@ body {
     }
     .intro-mg {
         margin: 40px 80px !important;
+    }
+    .third-mg {
+        padding-top: 0px;
     }
 }
 
