@@ -52,6 +52,10 @@ header a:hover {
     cursor: pointer !important;
 }
 
+.drop:hover .drop-list{
+    display: block !important;
+}
+
 .drop-list {
     display: none !important;
     text-align: center !important;
