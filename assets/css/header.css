@@ -9,6 +9,16 @@ header {
     color: #F5F6F7 !important;
 }
 
+#comp-logo{
+   
+  
+
+}
+
+#comp-logo > img{
+    
+}
+
 header li:hover {
     transition: 0.3s !important;
     color: #E5C175 !important;
