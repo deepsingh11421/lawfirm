@@ -10,12 +10,22 @@ header {
 }
 
 #comp-logo{
+<<<<<<< HEAD
 
+=======
+    /* display: inline-block; */
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 50px;
+  
+>>>>>>> 2878f4e55986e8fe11e3fd9372e5d124dcbe150f
 
 }
 
 #comp-logo > img{
-    
+    height: 50px;
+    width: 50px;
 }
 
 header li:hover {
@@ -112,6 +122,15 @@ header a:hover {
     .boot {
         padding-top: 0px !important;
         padding-bottom: 0px !important;
+    }
+
+    #comp-logo {
+        top: 4;
+    }
+
+    #comp-logo > img{
+        height: 40px;
+        width: 40px;
     }
 
     #header-list label{
