@@ -173,13 +173,13 @@ a, .button {
 
 .info > h2{
   font-family: 'GFS Didot', serif;
-  font-size: 19px;
+  font-size: 24px;
   font-weight: lighter;
  
 }
 .info > h5{
   font-family: 'GFS Didot', serif;
-  font-size: 16px;
+  font-size:19px;
   font-weight: lighter;
 }
 @media (max-width: 510px){
