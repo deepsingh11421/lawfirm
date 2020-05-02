@@ -690,4 +690,12 @@ body {
 html{
     scroll-behavior: smooth;
   }
+
+  .head-1{
+    font-family: 'GFS Didot', serif;
+  }
+  #font-content{
+    font-family: 'Alegreya';
+      font-weight: lighter;
+  }
   
