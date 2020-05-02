@@ -564,8 +564,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:25px;
+    padding-bottom:25px;
     flex-wrap: wrap;
     padding-left: 8%;
     padding-right: 8%;
