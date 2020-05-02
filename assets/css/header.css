@@ -9,6 +9,18 @@ header {
     color: #F5F6F7 !important;
 }
 
+#comp-logo{
+    position: absolute !important;
+    top: 10 !important;
+    left: 10 !important;
+    width: 50px !important;
+}
+
+#comp-logo > img{
+    height: 50px !important;
+    width: 50px !important;
+}
+
 header li:hover {
     transition: 0.3s !important;
     color: #E5C175 !important;
@@ -103,6 +115,15 @@ header a:hover {
     .boot {
         padding-top: 0px !important;
         padding-bottom: 0px !important;
+    }
+
+    #comp-logo {
+        top: 4 !important;
+    }
+
+    #comp-logo > img{
+        height: 40px !important;
+        width: 40px !important;
     }
 
     #header-list label{
