@@ -246,7 +246,7 @@ body {
 
 #fifth {
     color: #E5C175;
-    background-image: url("../image/pillars-01.jpeg");
+    background-image: url("../image/home.PNG");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -603,7 +603,7 @@ body {
         font-size: 2em;
     }
     .second-div {
-        width: 300px;
+        width: 270px;
     }
     #fifth-team > div {
         margin: 5px 20px;
